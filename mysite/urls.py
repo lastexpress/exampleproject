@@ -23,6 +23,5 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('', include('blog.urls')),
     path('admin/', admin.site.urls), # admin site
-    path('grappelli/', include('grappelli.urls')), # grappelli URLS
     path('thanks/', views.tnanks_page, name = 'tnanks_page'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

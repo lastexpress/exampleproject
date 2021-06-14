@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'grappelli',
     'price.apps.PriceConfig',
     'cms.apps.CmsConfig',
     'blog.apps.BlogConfig',
